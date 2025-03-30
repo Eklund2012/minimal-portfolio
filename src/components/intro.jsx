@@ -11,8 +11,8 @@ function Intro() {
       font-medium">Computer science student @ Karlstad University</p>
       <p className="text-sm max-w-xl mb-6
       font-bold">Passionate computer science student at Karlstad University, 
-      eager to explore software development, AI, and web technologies. 
-      Always learning, building, and problem-solving.</p>
+      eager to dive into software development, AI, and web technologies. 
+      Constantly learning, building, and solving problems to create innovative solutions.</p>
     </div>
   );
 }
