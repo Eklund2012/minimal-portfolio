@@ -9,7 +9,7 @@ A sleek and minimal portfolio website built with React and Tailwind CSS.
 - Simple and easy-to-customize structure
 
 ## Preview
-<a href="https://davideklund.com/" target="_blank" rel="noopener noreferrer">Preview</a>
+<a href="https://davideklund.com/" target="_blank">Preview</a>
 
 ## Installation
 
