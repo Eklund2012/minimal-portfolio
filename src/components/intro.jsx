@@ -10,8 +10,7 @@ function Intro() {
       <p clasName="text-base md:text-xl mb-3 
       font-medium">Computer science student @ Karlstad University</p>
       <p className="text-sm max-w-xl mb-6
-      font-bold">Passionate computer science student at Karlstad University, 
-      eager to dive into software development, AI, and web technologies. 
+      font-bold">Passionate computer science student at Karlstad University.
       Constantly learning, building, and solving problems to create innovative solutions.</p>
     </div>
   );
