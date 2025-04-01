@@ -2,19 +2,15 @@ export default [
     {
         title: "Python chess puzzles",
         imgUrl: '/assets/chess_puzzles.png',
+        alt: "Chess puzzles project",
         stack: ["Python", "Pygame"],
         link: "https://davideklund.com/",
     },
     {
         title: "Developer Portfolio",
-        imgUrl: "/assets/chess_puzzles.png",
-        stack: ["React", "TailwindCSS", "Vite"],
+        imgUrl: "/assets/portfolio.png",
+        alt: "Minimal portfolio project",
+        stack: ["React", "TailwindCSS", "Vite", "JavaScript"],
         link: "https://davideklund.com/",
-    },
-    {
-        title: "Terminal website",
-        imgUrl: "/assets/chess_puzzles.png",
-        stack: ["React", "TailwindCSS"],
-        link: "https://fkcodes.com",
-    },
+    }
 ]
