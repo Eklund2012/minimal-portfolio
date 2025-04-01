@@ -2,16 +2,16 @@
 
 A sleek and minimal portfolio website built with React and Tailwind CSS.
 
-## 🚀 Features
+## Features
 - Responsive design for mobile and desktop
 - Interactive portfolio items with hover effects
 - Timeline section for showcasing experience
 - Simple and easy-to-customize structure
 
-## 📸 Preview
-https://davideklund.com/
+## Preview
+[davideklund.com](https://davideklund.com/) 🔗
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
    ```sh
