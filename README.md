@@ -20,6 +20,6 @@ A sleek and minimal portfolio website built with React and Tailwind CSS.
    ```
 
 ## Tech Stack
-- React ⚛️
-- Vite ⚡
-- Tailwind CSS 🎨
+- React 
+- Vite 
+- Tailwind CSS 
