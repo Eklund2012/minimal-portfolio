@@ -1,12 +1,6 @@
 # Minimal Portfolio
 A minimal portfolio website built with React and Tailwind CSS.
 
-## Features
-- Responsive design for mobile and desktop
-- Interactive portfolio items with hover effects
-- Timeline section for showcasing experience
-- Simple and easy-to-customize structure
-
 ## Preview
 [davideklund.com](https://davideklund.com/) 🔗
 
@@ -26,6 +20,6 @@ A minimal portfolio website built with React and Tailwind CSS.
    ```
 
 ## Tech Stack
-- React ⚛️
-- Vite ⚡
-- Tailwind CSS 🎨
+- React 
+- Vite 
+- Tailwind CSS 
