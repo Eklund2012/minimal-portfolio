@@ -9,3 +9,7 @@ colors:
 #6A687A
 
 #84828F
+
+DARK THEME
+
+#121212

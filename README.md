@@ -1,5 +1,5 @@
 # Minimal Portfolio
-A sleek and minimal portfolio website built with React and Tailwind CSS.
+A minimal portfolio website built with React and Tailwind CSS.
 
 ## Features
 - Responsive design for mobile and desktop
