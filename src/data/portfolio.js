@@ -12,5 +12,12 @@ export default [
         alt: "Minimal portfolio project",
         stack: ["React", "TailwindCSS", "Vite", "JavaScript"],
         link: "https://davideklund.com/",
+    },
+    {
+        title: "Developer Portfolio",
+        imgUrl: "/assets/portfolio.png",
+        alt: "Minimal portfolio project",
+        stack: ["React", "TailwindCSS", "Vite", "JavaScript"],
+        link: "https://davideklund.com/",
     }
 ]

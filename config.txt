@@ -1,15 +1,9 @@
 colors:
 
-#2C3D55
-
-#3E4C5E
-
-#536271
-
-#6A687A
-
-#84828F
-
 DARK THEME
 
-#121212
+Background	Dark Gray	#121212
+Foreground	Soft White	#E0E0E0
+Accent 1	Warm Gray	#2A2A2A
+Accent 2	Slate Blue	#7C8FA3
+Call to Action (CTA)	Electric Indigo	#6C63FF

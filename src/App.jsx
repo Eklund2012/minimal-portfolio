@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './components/header'
 import Intro from './components/intro'
 import Portfolio from './components/portfolio'
 import Timeline from './components/timeline'
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Intro />
       <Portfolio />
       <Timeline />
