@@ -7,17 +7,10 @@ export default [
         link: "https://github.com/Eklund2012/py-chess-puzzles",
     },
     {
-        title: "Developer Portfolio",
+        title: "Portfolio Website",
         imgUrl: "/assets/portfolio.png",
         alt: "Minimal portfolio project",
         stack: ["React", "TailwindCSS", "Vite", "JavaScript"],
-        link: "https://davideklund.com/",
+        link: "https://github.com/Eklund2012/minimal-portfolio",
     },
-    {
-        title: "Developer Portfolio",
-        imgUrl: "/assets/portfolio.png",
-        alt: "Minimal portfolio project",
-        stack: ["React", "TailwindCSS", "Vite", "JavaScript"],
-        link: "https://davideklund.com/",
-    }
 ]

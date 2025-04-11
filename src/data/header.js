@@ -1,10 +1,8 @@
-// ../data/header.js
 const header = [
-    { text: "Home" },
-    { text: "Projects" },
-    { text: "About" },
-    { text: "Contact" },
-  ];
-  
-  export default header;
-  
+  { text: "D.E", target: "home" },
+  { text: "Projects", target: "portfolio" },
+  { text: "Timeline", target: "timeline" },
+  { text: "Contact", target: "contact" },
+];
+
+export default header;

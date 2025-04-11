@@ -3,7 +3,7 @@ import React from "react";
 function PortfolioItem({ title, imgUrl, stack, link, alt }) {
     return (
         <a href={link} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${title} project`}>
-            <div className="border-2 border-stone-900 rounded-md overflow-hidden bg-[#2A2A2A] hover:bg-[#6C63FF] transition-transform transform hover:scale-105 duration-300 hover:shadow-lg hover:shadow-stone-500">
+            <div className="border-2 border-stone-900 rounded-md overflow-hidden bg-[#2A2A2A] hover:bg-[#121212] transition-transform transform hover:scale-105 duration-300 hover:shadow-lg hover:shadow-stone-500">
                 <img
                     src={imgUrl}
                     alt={alt}
