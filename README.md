@@ -46,3 +46,5 @@ This project is built with a focus on, minimalism, and modern frontend practices
    ```Bash
    npm run build
    ```
+
+[LinkedIn](https://www.linkedin.com/in/david-eklund02/) | [GitHub](https://github.com/Eklund2012)
