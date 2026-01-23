@@ -14,7 +14,7 @@ function Header() {
     <div className="hidden md:block bg-[#1F1F1F] py-4 shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         <div
-          className="text-[#00FFD1] text-2xl font-bold tracking-wide cursor-pointer"
+          className="text-[#E0E0E0] text-2xl font-bold tracking-wide cursor-pointer hover:text-[#6C63FF]"
           onClick={() => handleScroll("home")}
         >
           My Portfolio
