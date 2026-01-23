@@ -3,8 +3,10 @@
 A clean, responsive, and minimal portfolio website designed to showcase my projects, experience and timeline as a Software Engineer and MSc Computer Science student. 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://davideklund-portfolio.vercel.app/)
-[![Vite](https://img.shields.io/badge/built%20with-Vite-646CFF.svg)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/styled%20with-Tailwind-38B2AC.svg)](https://tailwindcss.com/)
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Overview
 
