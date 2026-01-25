@@ -4,21 +4,9 @@ A clean, responsive, and minimal portfolio website designed to showcase my proje
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://davideklund-portfolio.vercel.app/)
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-## Overview
-
-This project is built with a focus on, minimalism, and modern frontend practices.
-
-### Key Features:
-- **Fast Performance:** Optimized with Vite's build tool.
-- **Responsive Design:** Fully fluid layout using Tailwind CSS.
-- **Clean Architecture:** Component-based structure for easy updates.
-- **Modern Tech:** Built with React 18+ and functional components.
 
 ## Tech Stack
+This project is built with a focus on, minimalism, and modern frontend practices.
 
 - **Framework:** [React](https://reactjs.org/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
