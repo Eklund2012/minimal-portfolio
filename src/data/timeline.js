@@ -1,14 +1,14 @@
 export default [
-    {
-        year: "2027 (Expected)",
-        title: "Master’s Degree in Computer Science @ Karlstad University",
-        duration: "2 years",
-        details: "Focusing on the architecture of secure, large-scale distributed systems and cloud computing. Advanced coursework in Ethical Hacking, Internet Privacy, and Advanced Networking. Deepening expertise in modeling complex systems and developing distributed applications with a security-first mindset.",
-    },
-    {
-    year: "2025",
-    title: "Bachelor’s Degree in Computer Science @ Karlstad University",
+  {
+    year: "2025 – 2027 (Expected)",
+    title: "Master's Degree in Computer Science, Karlstad University",
+    duration: "2 years",
+    details: "Specialization in distributed systems, network security, and cloud computing. Coursework includes Ethical Hacking, Internet Privacy, and Advanced Computer Networking.",
+  },
+  {
+    year: "2022 – 2025",
+    title: "Bachelor's Degree in Computer Science, Karlstad University",
     duration: "3 years",
-    details: "Studies focusing on software engineering, full-stack development, and systems architecture. Key areas included Data Structures & Algorithms, Operating Systems, Database Technology, and Applied Machine Learning. Developed a strong mindset for quality through coursework in Software Testing, Cyber Security, and Sustainable IT.",
-},
+    details: "Foundational software engineering, systems architecture, and database technologies. Coursework included Data Structures & Algorithms, Operating Systems, Software Testing, and Applied Machine Learning.",
+  },
 ];

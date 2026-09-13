@@ -1,12 +1,14 @@
 import React from "react";
 
-function HeaderItem({ text, onClick }) {
+function HeaderItem({ text, onClick, active }) {
   return (
-    <li className="cursor-pointer hover:text-[#6C63FF] transition-colors duration-200 relative group"
-        onClick={onClick}
+    <li
+      className={`cursor-pointer select-none text-xs sm:text-sm transition-colors duration-150 ${
+        active ? "text-white font-medium" : "text-neutral-400 hover:text-white"
+      }`}
+      onClick={onClick}
     >
-      <span>{text}</span>
-      <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#6C63FF] transition-all duration-300 group-hover:w-full"></span>
+      {text}
     </li>
   );
 }
