@@ -1,7 +1,6 @@
 const header = [
-  { text: "Timeline", target: "timeline" },
   { text: "Projects", target: "projects" },
-  { text: "Skills", target: "skills" },
+  { text: "Timeline", target: "timeline" },
   { text: "Contact", target: "contact" },
 ];
 

@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "./components/header";
 import Intro from "./components/intro";
-import Timeline from "./components/timeline";
 import Portfolio from "./components/portfolio";
-import Skills from "./components/skills";
+import Timeline from "./components/timeline";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 
@@ -16,16 +15,12 @@ function App() {
           <Intro />
         </section>
 
-        <section id="timeline" className="scroll-mt-16">
-          <Timeline />
-        </section>
-
         <section id="projects" className="scroll-mt-16">
           <Portfolio />
         </section>
 
-        <section id="skills" className="scroll-mt-16">
-          <Skills />
+        <section id="timeline" className="scroll-mt-16">
+          <Timeline />
         </section>
 
         <section id="contact" className="scroll-mt-16">
