@@ -61,13 +61,6 @@ function Header() {
               />
             ))}
           </ol>
-
-          <button
-            onClick={() => handleScroll("contact")}
-            className="px-3 py-1 text-xs font-medium rounded border border-white/[0.12] hover:border-white/[0.24] text-neutral-300 hover:text-white transition-colors duration-150 cursor-pointer"
-          >
-            Contact
-          </button>
         </nav>
 
         {/* Mobile Toggle */}
@@ -95,14 +88,6 @@ function Header() {
                 {item.text}
               </li>
             ))}
-            <li className="pt-2">
-              <button
-                onClick={() => handleScroll("contact")}
-                className="w-full py-1.5 text-xs font-medium rounded border border-white/[0.12] text-neutral-200 hover:text-white transition-colors duration-150"
-              >
-                Contact
-              </button>
-            </li>
           </ol>
         </div>
       )}
