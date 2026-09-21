@@ -1,20 +1,26 @@
 # David Eklund | Minimal Portfolio
 
-A clean, responsive, and minimal portfolio website designed to showcase my projects, experience and timeline as a Software Engineer and MSc Computer Science student. 
+A clean, responsive, and minimal portfolio website designed to showcase my projects, experience, and timeline as a Software Engineer and MSc Computer Science student. 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://davideklund-portfolio.vercel.app/)
 
-
 ## Tech Stack
-This project is built with a focus on, minimalism, and modern frontend practices.
+
+This project is built with a focus on minimalism, speed, and modern frontend practices.
 
 - **Framework:** [React](https://reactjs.org/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Lucide React](https://lucide.dev/) / [FontAwesome](https://fontawesome.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 - **Deployment:** [Vercel](https://vercel.com/)
 
-## Installation & Setup
+## Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) (v18+ recommended) and `npm` installed.
+
+### Installation
 
 1. **Clone the repository:**
    ```bash
@@ -27,16 +33,44 @@ This project is built with a focus on, minimalism, and modern frontend practices
    npm install
    ```
 
-3. **Run development server:**
-   ```bash
-   npm run dev
-   ```
+## How to Run
 
-4. **Build for production:**
-   ```Bash
-   npm run build
-   ```
+### Development Server
+
+Start the local development server with Hot Module Replacement (HMR):
+
+```bash
+npm run dev
+```
+
+Once started, open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Production Build
+
+Create an optimized production bundle in the `dist` directory:
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+Preview the production build locally before deployment:
+
+```bash
+npm run preview
+```
+
+### Linting
+
+Run ESLint to check for code quality and lint issues:
+
+```bash
+npm run lint
+```
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/david-eklund02/) | [GitHub](https://github.com/Eklund2012)
+- **Email:** [david.eklund9@proton.me](mailto:david.eklund9@proton.me)
+- **LinkedIn:** [David Eklund](https://www.linkedin.com/in/david-eklund02/)
+- **GitHub:** [@Eklund2012](https://github.com/Eklund2012)

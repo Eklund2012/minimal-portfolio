@@ -19,12 +19,12 @@ function Intro() {
 
       {/* Direct Statement of What I Do */}
       <p className="text-base sm:text-lg text-neutral-400 font-normal mb-5">
-        Software engineer specializing in backend systems, Go, and Python.
+        Software Engineer & MSc Student.
       </p>
 
       {/* Factual Bio */}
       <p className="text-sm sm:text-base text-neutral-400 leading-relaxed mb-8 max-w-2xl font-normal">
-        MSc Computer Science student at <span className="text-neutral-200 font-medium">Karlstad University</span>. I write backend services, CLI tools, and automation scripts, with coursework focused on distributed systems, computer networks, and cybersecurity.
+        MSc Computer Science student at <span className="text-neutral-200 font-medium">Karlstad University</span>. Currently learning AI/ML and optimization techniques, as well as advanced wireless networks.
       </p>
 
       {/* Action Buttons */}
