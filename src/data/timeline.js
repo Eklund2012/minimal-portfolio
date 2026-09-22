@@ -1,6 +1,6 @@
 export default [
   {
-    year: "2025 – 2027 (Expected)",
+    year: "2025 – 2027",
     title: "Master's Degree in Computer Science, Karlstad University",
     duration: "2 years",
     details: "Specialization in distributed systems, network security, and cloud computing. Coursework includes Ethical Hacking, Internet Privacy, and Advanced Computer Networking.",

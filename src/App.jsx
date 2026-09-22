@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-[#ededed] selection:bg-neutral-800 selection:text-white flex flex-col justify-between">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow space-y-12 sm:space-y-16">
         <section id="hero" className="scroll-mt-16">
           <Intro />
         </section>
@@ -23,7 +23,7 @@ function App() {
           <Timeline />
         </section>
 
-        <section id="contact" className="scroll-mt-16">
+        <section id="contact" className="scroll-mt-16 pb-12 sm:pb-16">
           <Contact />
         </section>
       </main>

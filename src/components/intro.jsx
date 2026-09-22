@@ -11,7 +11,7 @@ function Intro() {
   };
 
   return (
-    <div className="pt-16 pb-20 sm:pt-24 sm:pb-28 flex items-center justify-center flex-col text-center px-4 max-w-3xl mx-auto">
+    <div className="pt-16 sm:pt-24 flex items-center justify-center flex-col text-center px-4 max-w-3xl mx-auto">
       {/* Name */}
       <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-[#ededed] mb-3">
         David Eklund

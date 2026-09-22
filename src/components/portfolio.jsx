@@ -5,7 +5,7 @@ import Title from "./title";
 
 function Portfolio() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 my-16 sm:my-20">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6">
       <Title subtitle="Recent software projects and implementations.">
         Featured Projects
       </Title>
@@ -20,6 +20,7 @@ function Portfolio() {
             stack={project.stack}
             github={project.github}
             demo={project.demo}
+            demoLabel={project.demoLabel}
             alt={project.alt}
           />
         ))}

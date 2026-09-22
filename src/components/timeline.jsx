@@ -5,7 +5,7 @@ import Title from "./title";
 
 function Timeline() {
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 my-16 sm:my-20">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6">
       <Title subtitle="Academic degrees and coursework in Computer Science.">
         Education Timeline
       </Title>

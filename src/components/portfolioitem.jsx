@@ -2,7 +2,7 @@ import React from "react";
 import { ExternalLink } from "lucide-react";
 import { GithubIcon } from "./icons";
 
-function PortfolioItem({ title, description, imgUrl, stack = [], github, demo, alt }) {
+function PortfolioItem({ title, description, imgUrl, stack = [], github, demo, demoLabel = "Live Demo", alt }) {
   return (
     <div className="group rounded-lg overflow-hidden bg-[#111111] hover:bg-[#141414] border border-white/[0.08] hover:border-white/[0.22] hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(0,0,0,0.45)] transition-all duration-200 ease-out flex flex-col h-full">
       {/* Project Preview */}
@@ -65,10 +65,10 @@ function PortfolioItem({ title, description, imgUrl, stack = [], github, demo, a
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-medium bg-[#ededed] hover:bg-white text-[#0a0a0a] shadow-sm hover:shadow-[0_2px_10px_rgba(255,255,255,0.15)] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 ease-out focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2"
-              aria-label={`View live demo of ${title}`}
+              aria-label={`${demoLabel} for ${title}`}
             >
               <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
-              <span>Live Demo</span>
+              <span>{demoLabel}</span>
             </a>
           )}
         </div>

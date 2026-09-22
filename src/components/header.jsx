@@ -12,6 +12,13 @@ function Header() {
       const sections = header.map(item => document.getElementById(item.target)).filter(Boolean);
       const scrollPosition = window.scrollY + 120;
 
+      // The last section cannot always reach the top of the viewport. Mark it
+      // active once the page has reached its scroll boundary instead.
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 1) {
+        setActiveSection(sections.at(-1)?.id ?? "");
+        return;
+      }
+
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
         if (section && section.offsetTop <= scrollPosition) {
@@ -27,6 +34,7 @@ function Header() {
 
   const handleScroll = (target) => {
     setMobileMenuOpen(false);
+    setActiveSection(target);
     if (target === "hero") {
       window.scrollTo({ top: 0, behavior: "smooth" });
       return;

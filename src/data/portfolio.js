@@ -1,5 +1,15 @@
 export default [
     {
+        title: "CapConnect – Bachelor Thesis",
+        description: "Android application developed in collaboration with Capgemini Engineering to simplify internal communications, news, and workplace engagement.",
+        imgUrl: "/assets/capconnect.png", 
+        alt: "CapConnect Android application thesis project for Capgemini Engineering",
+        stack: ["Android", "Kotlin", "Software Architecture"], 
+        github: null,
+        demo: "http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-105154",
+        demoLabel: "Read Thesis",
+    },
+    {
         title: "Portfolio Website",
         description: "Static personal site built with React, Tailwind CSS, and Vite. Designed for fast loading, responsive layouts, and zero external runtime dependencies.",
         imgUrl: "/assets/portfolio.png",
@@ -25,7 +35,7 @@ export default [
         stack: ["Go", "CLI", "Concurrency", "Data Structures"],
         github: "https://github.com/Eklund2012",
         demo: null,
-    }
+    },
 ];
 
 /*{
