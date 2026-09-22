@@ -31,17 +31,18 @@ function Intro() {
       <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
         <button
           onClick={() => scrollTo("projects")}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded text-xs sm:text-sm font-medium bg-[#ededed] hover:bg-white text-[#0a0a0a] transition-colors duration-150 cursor-pointer"
+          className="group inline-flex items-center gap-2 px-4 py-2 rounded text-xs sm:text-sm font-medium bg-[#ededed] hover:bg-white text-[#0a0a0a] shadow-sm hover:shadow-[0_4px_14px_rgba(255,255,255,0.12)] hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 ease-out focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2 cursor-pointer"
         >
           <span>View Projects</span>
-          <ArrowRight className="w-3.5 h-3.5" />
+          <ArrowRight className="w-3.5 h-3.5 transition-transform duration-200 ease-out group-hover:translate-x-0.5" aria-hidden="true" />
         </button>
 
         <button
           onClick={() => scrollTo("contact")}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded text-xs sm:text-sm font-medium border border-white/[0.12] hover:border-white/[0.24] hover:bg-white/[0.04] text-neutral-300 hover:text-white transition-colors duration-150 cursor-pointer"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded text-xs sm:text-sm font-medium border border-white/[0.12] hover:border-white/[0.28] hover:bg-white/[0.05] text-neutral-300 hover:text-white hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 ease-out focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2 cursor-pointer"
+          aria-label="Scroll to contact section"
         >
-          <Mail className="w-3.5 h-3.5 text-neutral-400" />
+          <Mail className="w-3.5 h-3.5 text-neutral-400" aria-hidden="true" />
           <span>Contact Me</span>
         </button>
       </div>
@@ -52,18 +53,18 @@ function Intro() {
           href="https://github.com/Eklund2012"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 hover:text-neutral-200 transition-colors duration-150"
+          className="inline-flex items-center gap-1.5 hover:text-white hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 ease-out rounded px-1 py-0.5 focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2"
           aria-label="GitHub Profile"
         >
           <GithubIcon className="w-3.5 h-3.5" />
           <span>GitHub</span>
         </a>
-        <span className="text-neutral-700">/</span>
+        <span className="text-neutral-600 select-none" aria-hidden="true">/</span>
         <a
           href="https://www.linkedin.com/in/david-eklund02"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1.5 hover:text-neutral-200 transition-colors duration-150"
+          className="inline-flex items-center gap-1.5 hover:text-white hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 ease-out rounded px-1 py-0.5 focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-2"
           aria-label="LinkedIn Profile"
         >
           <LinkedinIcon className="w-3.5 h-3.5" />

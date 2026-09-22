@@ -3,6 +3,8 @@ import React from "react";
 export function GithubIcon({ className = "w-4 h-4", ...props }) {
   return (
     <svg
+      aria-hidden="true"
+      focusable="false"
       role="img"
       viewBox="0 0 24 24"
       fill="currentColor"
@@ -18,6 +20,8 @@ export function GithubIcon({ className = "w-4 h-4", ...props }) {
 export function LinkedinIcon({ className = "w-4 h-4", ...props }) {
   return (
     <svg
+      aria-hidden="true"
+      focusable="false"
       role="img"
       viewBox="0 0 24 24"
       fill="currentColor"
