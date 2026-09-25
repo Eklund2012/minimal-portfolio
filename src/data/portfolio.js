@@ -2,12 +2,21 @@ export default [
     {
         title: "CapConnect – Bachelor Thesis",
         description: "Android application developed in collaboration with Capgemini Engineering to simplify internal communications, news, and workplace engagement.",
-        imgUrl: "/assets/capconnect.png", 
+        imgUrl: "/assets/capconnect.png",
         alt: "CapConnect Android application thesis project for Capgemini Engineering",
-        stack: ["Android", "Kotlin", "Software Architecture"], 
+        stack: ["Android", "Kotlin", "Software Architecture"],
         github: null,
         demo: "http://urn.kb.se/resolve?urn=urn:nbn:se:kau:diva-105154",
         demoLabel: "Read Thesis",
+    },
+    {
+        title: "Post-Quantum Hybrid Key Exchange",
+        description: "Go demonstration of quantum-resistant hybrid key exchange combining ML-KEM-768 with X25519. Derives session keys via HKDF-SHA-256 and proves agreement with authenticated AES-256-GCM encryption.",
+        imgUrl: "/assets/pq-hybrid-kex.png",
+        alt: "Diagram of Alice and Bob performing hybrid post-quantum key exchange combining X25519 and ML-KEM-768 in Go",
+        stack: ["Go", "ML-KEM-768", "X25519", "Cryptography"],
+        github: "https://github.com/Eklund2012/pq-hybrid-kex",
+        demo: null,
     },
     {
         title: "Portfolio Website",
@@ -37,13 +46,3 @@ export default [
         demo: null,
     },
 ];
-
-/*{
-    title: "Project Name",
-    description: "What problem does this solve and what is the key architectural feature?",
-    imgUrl: "/assets/my-new-app.png",
-    alt: "Preview of Project Name",
-    stack: ["Language", "Framework", "Tool"],
-    github: "https://github.com/Eklund2012/...",
-    demo: null, // or "https://...",
-},*/

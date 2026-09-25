@@ -6,13 +6,10 @@ A clean, responsive, and minimal portfolio website designed to showcase my proje
 
 ## Tech Stack
 
-This project is built with a focus on minimalism, speed, and modern frontend practices.
-
 - **Framework:** [React](https://reactjs.org/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Icons:** [Lucide React](https://lucide.dev/)
-- **Deployment:** [Vercel](https://vercel.com/)
 
 ## Getting Started
 
@@ -37,7 +34,7 @@ Ensure you have [Node.js](https://nodejs.org/) (v18+ recommended) and `npm` inst
 
 ### Development Server
 
-Start the local development server with Hot Module Replacement (HMR):
+Start the local development server:
 
 ```bash
 npm run dev
@@ -46,8 +43,6 @@ npm run dev
 Once started, open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ### Production Build
-
-Create an optimized production bundle in the `dist` directory:
 
 ```bash
 npm run build
